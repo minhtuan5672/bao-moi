@@ -105,3 +105,37 @@ a {
     word-break: break-word;
     width: 630px;
 }
+
+.list {
+    width: 630px;
+    height: 250px;
+}
+
+.content .list {
+    display: flex;
+}
+
+.list .item {
+    flex: 1;
+}
+
+.item .thumb {
+    width: 200px;
+    height: 130px;
+}
+
+.body {
+    display: flex;
+}
+
+.body-right .item {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+
+.body-right .item .thumb {
+    width: 60px;
+    height: 60px;
+}
+
